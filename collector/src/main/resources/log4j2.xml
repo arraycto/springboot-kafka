@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration xmlns="http://logging.apache.org/log4j/2.0/config">
+    <Properties>
+        <Property name="LOG_HOME">logs</Property>
+        <Property name="FILE_NAME">collector</Property>
+        <Property name="patternLayout">[%d{yyyy-MM-dd'T'HH:mm:ss.SSSZZ}] [%level{length=5}] [%thread-%tid] [%logger] [%X{hostName}]</Property>
+    </Properties>
+    <Appenders></Appenders>
+    <Loggers></Loggers>
+</Configuration>
